@@ -18,6 +18,7 @@
 		E31460F52A29BB120065E83B /* illumina2023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31460F42A29BB120065E83B /* illumina2023UITestsLaunchTests.swift */; };
 		E314613E2A2A8C8B0065E83B /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E314613D2A2A8C8B0065E83B /* ChoiceViewController.swift */; };
 		E31461402A2AF94D0065E83B /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E314613F2A2AF94D0065E83B /* ReportViewController.swift */; };
+		E3A1E4EC2A2B370500CEDB80 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A1E4EB2A2B370500CEDB80 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		E31460F42A29BB120065E83B /* illumina2023UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = illumina2023UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E314613D2A2A8C8B0065E83B /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
 		E314613F2A2AF94D0065E83B /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		E3A1E4EB2A2B370500CEDB80 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,13 +107,10 @@
 			children = (
 				E31460D12A29BB110065E83B /* AppDelegate.swift */,
 				E31460D32A29BB110065E83B /* SceneDelegate.swift */,
-				E31460D52A29BB110065E83B /* ViewController.swift */,
-				E31460D72A29BB110065E83B /* Main.storyboard */,
+				E3A1E4E92A2B36D300CEDB80 /* Controller */,
+				E3A1E4EA2A2B36EA00CEDB80 /* View */,
 				E31460DA2A29BB120065E83B /* Assets.xcassets */,
-				E31460DC2A29BB120065E83B /* LaunchScreen.storyboard */,
 				E31460DF2A29BB120065E83B /* Info.plist */,
-				E314613D2A2A8C8B0065E83B /* ChoiceViewController.swift */,
-				E314613F2A2AF94D0065E83B /* ReportViewController.swift */,
 			);
 			path = illumina2023;
 			sourceTree = "<group>";
@@ -131,6 +130,26 @@
 				E31460F42A29BB120065E83B /* illumina2023UITestsLaunchTests.swift */,
 			);
 			path = illumina2023UITests;
+			sourceTree = "<group>";
+		};
+		E3A1E4E92A2B36D300CEDB80 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E31460D52A29BB110065E83B /* ViewController.swift */,
+				E314613D2A2A8C8B0065E83B /* ChoiceViewController.swift */,
+				E314613F2A2AF94D0065E83B /* ReportViewController.swift */,
+				E3A1E4EB2A2B370500CEDB80 /* MapViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E3A1E4EA2A2B36EA00CEDB80 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E31460D72A29BB110065E83B /* Main.storyboard */,
+				E31460DC2A29BB120065E83B /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E31460D62A29BB110065E83B /* ViewController.swift in Sources */,
+				E3A1E4EC2A2B370500CEDB80 /* MapViewController.swift in Sources */,
 				E31460D22A29BB110065E83B /* AppDelegate.swift in Sources */,
 				E31460D42A29BB110065E83B /* SceneDelegate.swift in Sources */,
 				E31461402A2AF94D0065E83B /* ReportViewController.swift in Sources */,
@@ -448,6 +468,8 @@
 				DEVELOPMENT_TEAM = MMZ4M2Z9GS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = illumina2023/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fall Secure";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -477,6 +499,8 @@
 				DEVELOPMENT_TEAM = MMZ4M2Z9GS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = illumina2023/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fall Secure";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
