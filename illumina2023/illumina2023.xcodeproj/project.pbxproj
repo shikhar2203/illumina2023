@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E31460D22A29BB110065E83B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31460D12A29BB110065E83B /* AppDelegate.swift */; };
+		E31460D42A29BB110065E83B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31460D32A29BB110065E83B /* SceneDelegate.swift */; };
+		E31460D62A29BB110065E83B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31460D52A29BB110065E83B /* ViewController.swift */; };
+		E31460D92A29BB110065E83B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31460D72A29BB110065E83B /* Main.storyboard */; };
+		E31460DB2A29BB120065E83B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31460DA2A29BB120065E83B /* Assets.xcassets */; };
+		E31460DE2A29BB120065E83B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31460DC2A29BB120065E83B /* LaunchScreen.storyboard */; };
+		E31460E92A29BB120065E83B /* illumina2023Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31460E82A29BB120065E83B /* illumina2023Tests.swift */; };
+		E31460F32A29BB120065E83B /* illumina2023UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31460F22A29BB120065E83B /* illumina2023UITests.swift */; };
+		E31460F52A29BB120065E83B /* illumina2023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31460F42A29BB120065E83B /* illumina2023UITestsLaunchTests.swift */; };
+		E314613E2A2A8C8B0065E83B /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E314613D2A2A8C8B0065E83B /* ChoiceViewController.swift */; };
+		E31461402A2AF94D0065E83B /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E314613F2A2AF94D0065E83B /* ReportViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E31460E52A29BB120065E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E31460C62A29BB110065E83B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E31460CD2A29BB110065E83B;
+			remoteInfo = illumina2023;
+		};
+		E31460EF2A29BB120065E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E31460C62A29BB110065E83B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E31460CD2A29BB110065E83B;
+			remoteInfo = illumina2023;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E31460CE2A29BB110065E83B /* illumina2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = illumina2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31460D12A29BB110065E83B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E31460D32A29BB110065E83B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E31460D52A29BB110065E83B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E31460D82A29BB110065E83B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E31460DA2A29BB120065E83B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E31460DD2A29BB120065E83B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E31460DF2A29BB120065E83B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E31460E42A29BB120065E83B /* illumina2023Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = illumina2023Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31460E82A29BB120065E83B /* illumina2023Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = illumina2023Tests.swift; sourceTree = "<group>"; };
+		E31460EE2A29BB120065E83B /* illumina2023UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = illumina2023UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31460F22A29BB120065E83B /* illumina2023UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = illumina2023UITests.swift; sourceTree = "<group>"; };
+		E31460F42A29BB120065E83B /* illumina2023UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = illumina2023UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E314613D2A2A8C8B0065E83B /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
+		E314613F2A2AF94D0065E83B /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E31460CB2A29BB110065E83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31460E12A29BB120065E83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31460EB2A29BB120065E83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E31460C52A29BB110065E83B = {
+			isa = PBXGroup;
+			children = (
+				E31460D02A29BB110065E83B /* illumina2023 */,
+				E31460E72A29BB120065E83B /* illumina2023Tests */,
+				E31460F12A29BB120065E83B /* illumina2023UITests */,
+				E31460CF2A29BB110065E83B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E31460CF2A29BB110065E83B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E31460CE2A29BB110065E83B /* illumina2023.app */,
+				E31460E42A29BB120065E83B /* illumina2023Tests.xctest */,
+				E31460EE2A29BB120065E83B /* illumina2023UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E31460D02A29BB110065E83B /* illumina2023 */ = {
+			isa = PBXGroup;
+			children = (
+				E31460D12A29BB110065E83B /* AppDelegate.swift */,
+				E31460D32A29BB110065E83B /* SceneDelegate.swift */,
+				E31460D52A29BB110065E83B /* ViewController.swift */,
+				E31460D72A29BB110065E83B /* Main.storyboard */,
+				E31460DA2A29BB120065E83B /* Assets.xcassets */,
+				E31460DC2A29BB120065E83B /* LaunchScreen.storyboard */,
+				E31460DF2A29BB120065E83B /* Info.plist */,
+				E314613D2A2A8C8B0065E83B /* ChoiceViewController.swift */,
+				E314613F2A2AF94D0065E83B /* ReportViewController.swift */,
+			);
+			path = illumina2023;
+			sourceTree = "<group>";
+		};
+		E31460E72A29BB120065E83B /* illumina2023Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E31460E82A29BB120065E83B /* illumina2023Tests.swift */,
+			);
+			path = illumina2023Tests;
+			sourceTree = "<group>";
+		};
+		E31460F12A29BB120065E83B /* illumina2023UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E31460F22A29BB120065E83B /* illumina2023UITests.swift */,
+				E31460F42A29BB120065E83B /* illumina2023UITestsLaunchTests.swift */,
+			);
+			path = illumina2023UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E31460CD2A29BB110065E83B /* illumina2023 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31460F82A29BB120065E83B /* Build configuration list for PBXNativeTarget "illumina2023" */;
+			buildPhases = (
+				E31460CA2A29BB110065E83B /* Sources */,
+				E31460CB2A29BB110065E83B /* Frameworks */,
+				E31460CC2A29BB110065E83B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = illumina2023;
+			productName = illumina2023;
+			productReference = E31460CE2A29BB110065E83B /* illumina2023.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E31460E32A29BB120065E83B /* illumina2023Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31460FB2A29BB120065E83B /* Build configuration list for PBXNativeTarget "illumina2023Tests" */;
+			buildPhases = (
+				E31460E02A29BB120065E83B /* Sources */,
+				E31460E12A29BB120065E83B /* Frameworks */,
+				E31460E22A29BB120065E83B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E31460E62A29BB120065E83B /* PBXTargetDependency */,
+			);
+			name = illumina2023Tests;
+			productName = illumina2023Tests;
+			productReference = E31460E42A29BB120065E83B /* illumina2023Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E31460ED2A29BB120065E83B /* illumina2023UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31460FE2A29BB120065E83B /* Build configuration list for PBXNativeTarget "illumina2023UITests" */;
+			buildPhases = (
+				E31460EA2A29BB120065E83B /* Sources */,
+				E31460EB2A29BB120065E83B /* Frameworks */,
+				E31460EC2A29BB120065E83B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E31460F02A29BB120065E83B /* PBXTargetDependency */,
+			);
+			name = illumina2023UITests;
+			productName = illumina2023UITests;
+			productReference = E31460EE2A29BB120065E83B /* illumina2023UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E31460C62A29BB110065E83B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E31460CD2A29BB110065E83B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					E31460E32A29BB120065E83B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E31460CD2A29BB110065E83B;
+					};
+					E31460ED2A29BB120065E83B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E31460CD2A29BB110065E83B;
+					};
+				};
+			};
+			buildConfigurationList = E31460C92A29BB110065E83B /* Build configuration list for PBXProject "illumina2023" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E31460C52A29BB110065E83B;
+			productRefGroup = E31460CF2A29BB110065E83B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E31460CD2A29BB110065E83B /* illumina2023 */,
+				E31460E32A29BB120065E83B /* illumina2023Tests */,
+				E31460ED2A29BB120065E83B /* illumina2023UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E31460CC2A29BB110065E83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31460DE2A29BB120065E83B /* LaunchScreen.storyboard in Resources */,
+				E31460DB2A29BB120065E83B /* Assets.xcassets in Resources */,
+				E31460D92A29BB110065E83B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31460E22A29BB120065E83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31460EC2A29BB120065E83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E31460CA2A29BB110065E83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31460D62A29BB110065E83B /* ViewController.swift in Sources */,
+				E31460D22A29BB110065E83B /* AppDelegate.swift in Sources */,
+				E31460D42A29BB110065E83B /* SceneDelegate.swift in Sources */,
+				E31461402A2AF94D0065E83B /* ReportViewController.swift in Sources */,
+				E314613E2A2A8C8B0065E83B /* ChoiceViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31460E02A29BB120065E83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31460E92A29BB120065E83B /* illumina2023Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31460EA2A29BB120065E83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31460F52A29BB120065E83B /* illumina2023UITestsLaunchTests.swift in Sources */,
+				E31460F32A29BB120065E83B /* illumina2023UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E31460E62A29BB120065E83B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E31460CD2A29BB110065E83B /* illumina2023 */;
+			targetProxy = E31460E52A29BB120065E83B /* PBXContainerItemProxy */;
+		};
+		E31460F02A29BB120065E83B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E31460CD2A29BB110065E83B /* illumina2023 */;
+			targetProxy = E31460EF2A29BB120065E83B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E31460D72A29BB110065E83B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E31460D82A29BB110065E83B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E31460DC2A29BB120065E83B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E31460DD2A29BB120065E83B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E31460F62A29BB120065E83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E31460F72A29BB120065E83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E31460F92A29BB120065E83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMZ4M2Z9GS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = illumina2023/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.illumina2023;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E31460FA2A29BB120065E83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMZ4M2Z9GS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = illumina2023/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.illumina2023;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E31460FC2A29BB120065E83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.illumina2023Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/illumina2023.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/illumina2023";
+			};
+			name = Debug;
+		};
+		E31460FD2A29BB120065E83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.illumina2023Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/illumina2023.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/illumina2023";
+			};
+			name = Release;
+		};
+		E31460FF2A29BB120065E83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.illumina2023UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = illumina2023;
+			};
+			name = Debug;
+		};
+		E31461002A29BB120065E83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.illumina2023UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = illumina2023;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E31460C92A29BB110065E83B /* Build configuration list for PBXProject "illumina2023" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31460F62A29BB120065E83B /* Debug */,
+				E31460F72A29BB120065E83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31460F82A29BB120065E83B /* Build configuration list for PBXNativeTarget "illumina2023" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31460F92A29BB120065E83B /* Debug */,
+				E31460FA2A29BB120065E83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31460FB2A29BB120065E83B /* Build configuration list for PBXNativeTarget "illumina2023Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31460FC2A29BB120065E83B /* Debug */,
+				E31460FD2A29BB120065E83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31460FE2A29BB120065E83B /* Build configuration list for PBXNativeTarget "illumina2023UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31460FF2A29BB120065E83B /* Debug */,
+				E31461002A29BB120065E83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E31460C62A29BB110065E83B /* Project object */;
+}
